@@ -1,15 +1,13 @@
-#splash {
-	background:url(../images/lightswitch.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	height: 90hv;
-	padding: 10em 0 0 5em;
+* { margin:0; padding:0; box-sizing:border-box; 
 }
 body {
-	   text-align: center;
+	   /* text-align: center; */
 	   background-color: rgb(232,232,232);
 	   font-family: sans-serif;
 	   color: rgb(116,116,116);
+}
+section {
+	margin:5em 0;
 }	   
 h1{
 	font-size: 50px;
@@ -23,4 +21,15 @@ h2{
 h3{
 	font-size: 40px;
 	color: rgb(116,116,116);
+}
+ul {
+	padding-left:1.25em;
+}
+#splash {
+	background: url(../images/lightswitch.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 90vh;
+	margin:0;
+	padding: 10em 0 0 5em;
 }
