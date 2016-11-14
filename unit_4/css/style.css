@@ -1,10 +1,10 @@
-@import url(https://fonts.googleapis.com/css?family=Montserrat|Patua+One|Paytone+One);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Patua+One|Paytone+One|Pragati+Narrow|Varela);
 * { margin:0; padding:0; box-sizing:border-box; 
 }
 body {
 	   /* text-align: center; */
 	   background-color: rgb(232,232,232);
-	   font-family: sans-serif;
+	   font-family: 'Varela', sans-serif;
 	   color: rgb(116,116,116);
 }
 section {
@@ -25,6 +25,9 @@ h3{
 }
 ul {
 	padding-left:1.25em;
+}
+#history {
+	padding-left: 15em;
 }
 #splash {
 	font-family: 'Montserrat', sans-serif;
