@@ -32,6 +32,16 @@ header {
 	border: 1px solid black;
 	padding: 20px;
 }
+article {
+	background-color: #E89C6C;
+	border: 1px solid black;
+	padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	border: 1px solid black;
+	padding: 20px;
+}
 #splash {
 	font-family: 'Montserrat', sans-serif;
     background: url(../images/lightswitch.jpg);
