@@ -10,15 +10,18 @@ body {
 }
 section {
 	margin:5em 0;
-}	   
+}	 
+header {
+	padding: 5em 0 0 0;
+}  
 h1 {
 	font-size: 50px;
 	color: rgb(116,116,116);
 }
 h2 {
-	font-style: italic;
+	font-style: none;
 	font-size: 40px;
-	color: rgb(116,116,116);
+	color: #95CE8B;
 }
 h3 {
 	font-size: 40px;
@@ -26,12 +29,6 @@ h3 {
 }
 ul {
 	padding-left:1.25em;
-
-}
-header {
-	background-color: #FFED74;
-	border: 1px solid black;
-	padding: 20px;
 }
 main {
 	background-color: #E89C6C;
@@ -42,13 +39,44 @@ footer{
 	background-color: #FF957E;
 	border: 1px solid black;
 	padding: 20px;
+	text-align: center;
+	font-size: 1em;
 }
 #splash {
-	font-family: 'Montserrat', sans-serif;
+	font-family: sans-serif;
     background: url(../images/lightswitch.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 90vh;
 	margin:0;
 	padding: 10em 0 0 5em;
+}
+#left {
+	width: 40%;
+	float: right;
+	font-size: 1em;
+	padding: 5em 10em 2em 2em;
+}
+img {
+	display: block;
+	width: 500px;
+	padding: 5em 0em 5em 5em;
+	margin: 10em;
+}
+#right {
+	display: block;
+	width: 100%;
+	margin: 0;
+	background: white;
+}
+nav {
+	font-size: 1.7em;
+	float: left;
+	background-color: grey;
+}
+nav a {
+	text-decoration: none;
+	color: white;
+	margin: .5em;
+    display: inline-block;
 }
